@@ -29,6 +29,7 @@ struct ContentView: View {
                 .padding(.all)
                 .background(Color.blue)
                 .frame(width: 180, height: 42)
+//                 .navigationTitle("Top View")
                 
                 // 成績表ボタン
                 NavigationLink(destination: StartView(),
